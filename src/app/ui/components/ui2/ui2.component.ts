@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ui2.component.scss'],
 })
 export class Ui2Component implements OnInit {
+  public close = true;
   constructor() {}
-
   ngOnInit(): void {}
+  public toggle(): void {
+    this.close = !this.close;
+  }
 }
