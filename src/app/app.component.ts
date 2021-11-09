@@ -16,7 +16,7 @@ export class AppComponent {
   private sub!: Subscription;
 
   constructor() {
-    this.sub = this.obs.subscribe((data) => console.log(data));
+    // this.sub = this.obs.subscribe((data) => console.log(data));
     // this.obs.subscribe((data) => console.log(data));
     //
     // this.subj.subscribe((data) => console.log(data));
@@ -34,7 +34,7 @@ export class AppComponent {
     // this.behav.next(3);
   }
 
-  ngOnDestroy(): void {
-    this.sub.unsubscribe();
-  }
+  // ngOnDestroy(): void {
+  //   this.sub.unsubscribe();
+  // }
 }
