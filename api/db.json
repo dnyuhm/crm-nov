@@ -69,6 +69,36 @@
       "client": "tutu",
       "comment": "titi",
       "id": 7
+    },
+    {
+      "tjmHt": 1200,
+      "nbJours": 1,
+      "tva": 20,
+      "state": "OPTION",
+      "typePresta": null,
+      "client": null,
+      "comment": null,
+      "id": 8
+    },
+    {
+      "tjmHt": 1200,
+      "nbJours": 1,
+      "tva": 20,
+      "state": "OPTION",
+      "typePresta": "aa",
+      "client": "aaa",
+      "comment": null,
+      "id": 9
+    },
+    {
+      "tjmHt": 1200,
+      "nbJours": 1,
+      "tva": 20,
+      "state": "CANCELED",
+      "typePresta": "a",
+      "client": "aa",
+      "comment": "aaa",
+      "id": 10
     }
   ],
   "clients": [
